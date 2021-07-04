@@ -1,0 +1,25 @@
+[
+  {
+    "outputFileName": "wwwroot/assets/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/assets/css/stylesheet.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": false
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/assets/css/bundle.min.css",
+    "inputFiles": [
+      "wwwroot/assets/css/site.min.css",
+      "wwwroot/assets/css/bootstrap.min.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": false
+    },
+    "sourceMap": false
+  }
+]
