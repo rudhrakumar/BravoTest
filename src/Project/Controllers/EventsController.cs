@@ -2,12 +2,12 @@
 
 namespace Project.Controllers
 {
-    [Route("")]
-    public class HomeController : Controller
+    [Route("Events")]
+    public class EventsController : Controller
     {
         public IActionResult Index()
         {
-            ViewBag.Title = "C# Technical Test";
+            ViewBag.Title = "Events API";
             return View();
         }
     }

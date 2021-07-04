@@ -17,8 +17,8 @@ namespace Project.Controllers
         }
         public IActionResult Index()
         {
-            //var randomNumber = _randomNumberGenerator.GetRandomNumber();
             ViewData["RandomNumber"] = _randomNumberGenerator.GetRandomNumber();
+            ViewBag.Title = "Random Number Generator";
             return View();
         }
     }
